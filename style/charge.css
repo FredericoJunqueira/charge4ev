@@ -1,10 +1,19 @@
 #top-title.container-fluid {
     background-image: url('../img/Mask_Group_1.png'), 
-        linear-gradient(rgba(29,29,27,0.8),rgba(29,29,27,0.8));
+        linear-gradient(rgba(29,29,27,0.9),rgba(29,29,27,0.9));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+}
+
+#contact-area.container-fluid {
+    text-align: center;
+    background-color: #25D366;
+}
+
+#contact-area > .container{
+    padding-top: 5%;
 }
 
 body {
@@ -12,7 +21,7 @@ body {
 }
 
 img.resize {
-    max-width: 50%;
+    max-width: 45%;
     max-height: 50%;
 }
 
@@ -28,4 +37,10 @@ img.resize {
     font-size:1rem;
     font-weight: 500;
     /* font-size: 25px; */
+}
+
+.form-rounded{
+    border-radius:2rem;
+    width: 40%;
+    border:none;
 }
