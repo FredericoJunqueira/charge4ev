@@ -5,10 +5,33 @@
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    width: 100%;
+    height: auto;
+}
+
+#charge-options.container-fluid{
+    text-align: center;
+    margin-top:7%;
+    margin-bottom:7%;
+}
+
+.imgHolder {
+    position: relative;
+    display: inline-block;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+#email a{
+    font-weight: 500;
+    font-size:1.2rem;
+    color:black;
 }
 
 #contact-area.container-fluid {
     text-align: center;
+    font-weight: 500;
+
     background-color: #25D366;
 }
 
@@ -22,12 +45,22 @@ body {
 
 img.resize {
     max-width: 45%;
-    max-height: 50%;
+    /* max-height: 50%; */
+}
+
+.reduceSize {
+    height:auto;
+    width:15%;
+}
+
+.imgHolder figcaption {
+    font-weight:500;
+    font-size:1.3rem;
 }
 
 .charge-title {
     color:white;
-    font-size:2rem;
+    font-size:1.6rem;
     font-weight: 500;
     /* font-size:49px;  */
 }
@@ -39,8 +72,45 @@ img.resize {
     /* font-size: 25px; */
 }
 
+.white-text{
+    color:white;
+    font-size:1.5rem;
+}
+
 .form-rounded{
     border-radius:2rem;
     width: 40%;
     border:none;
 }
+
+.btn{
+    border-radius: 2rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    width: 150px;
+    font-weight: 500;
+}
+
+input {
+    margin:auto;
+}
+
+textarea {
+    margin:auto;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #25D366;
+    font-size:1rem;
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #25D366;
+    font-size:1rem;
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #25D366;
+    font-size:1rem;
+} 
